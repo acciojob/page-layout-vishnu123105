@@ -2,7 +2,7 @@
 import React from "react";
 import './../styles/App.css';
  
-const PageLayout = ({ header, children, footer }) => {
+const PageLayout = ( header, children, footer ) => {
   return (
     <div>
       <div>{header}</div>
@@ -19,9 +19,9 @@ const App = () => {
       footer={<footer><p>© 2023 My Website. All rights reserved.</p></footer>}
     >
       <div>
-        <p>This is the main content of my website.</p>
+        <p> This is the content of my website.</p>
       </div>
-      
+
     </PageLayout>
   );
 };
