@@ -15,15 +15,15 @@ const PageLayout = ({ header, children, footer }) => {
 const App = () => {
   return (
     <PageLayout
-      header ={<header><h1>Welcome to My Website</h1></header>}
-      footer ={<footer><p>© 2023 My Website. All rights reserved.</p></footer>}
->
-  <div>
-      <p>This is the main content of my website.</p>
+      header={<header><h1>Welcome to my website</h1></header>}
+      footer={<footer><p>© 2023 My Website. All rights reserved.</p></footer>}
+    >
+      <div>
+        <p>This is the main content of my website.</p>
       </div>
-    
+      
     </PageLayout>
-  )
-}
+  );
+};
 
 export default App
